@@ -7,9 +7,10 @@ langchain-core
 chromadb
 rank-bm25
 sentence-transformers
-ragas
+ragas==0.1.21
 datasets
 streamlit
 pypdf
 python-dotenv
+langchain-google-vertexai
 numpy
