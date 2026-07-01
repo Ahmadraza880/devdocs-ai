@@ -1,0 +1,15 @@
+langchain
+langchain-groq
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+langchain-core
+chromadb
+rank-bm25
+sentence-transformers
+ragas
+datasets
+streamlit
+pypdf
+python-dotenv
+numpyss
