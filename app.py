@@ -103,9 +103,7 @@ with st.sidebar:
                         contexts=contexts,
                         ground_truths=ground_truths
                     )
-                    df = results.to_pandas()
-                    numeric_cols = df.select_dtypes(include='number').columns
-                    st.session_state.eval_results = df[numeric_cols].mean().to_dict()
+                    st.session_state.eval_results = results
             else:
                 st.warning("Enter an eval question first.")
 
